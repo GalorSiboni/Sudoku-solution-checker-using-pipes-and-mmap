@@ -3,7 +3,7 @@ Authors: Galor Siboni and Shahar Nissan
 # Sudoku-solution-checker-using-pipes-and-mmap
 Sudoku solution checker using pipes and mmap in C
 
-#v1 - pipes and execv.
+# v1 - pipes and execv.
 
 we check the sudoku solution with 3 process for rows,columns and 3v3 cells.
 
@@ -14,7 +14,7 @@ and then we use execv to send the matrix to "checks.c" then send via pipes the c
 solution is ligal or not. 
 
 
-#v2 - mmap.
+# v2 - mmap.
 
 we check the sudoku solution with 3 process for rows,columns and 3v3 cells as well.
 
